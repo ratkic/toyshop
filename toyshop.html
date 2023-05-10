@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Toy store</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="stylesheet" type="text/css" href="nav.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+       <nav class="navbar">
+        
+            <div class="nav">
+                <img src="logo-toy-shop.png" class="brand-logo" alt="">
+                <div class="nav-items">
+                    <div class="search">
+                        <input type="text" class="search-box" placeholder="Search...">
+                        <button class="search-btn">Search</button>
+                    </div>
+                    
+                    <a href="#"><img class="cart" src="cart4.jpg" alt="Cart"></a>
+        
+                    <button class="login-btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+                    <div id="id01" class="login">
+                    
+                    <form class="login-form">
+                        <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+                            <img src="user2.jpg" alt="Avatar" class="avatar"> 
+                        </div>
+
+                        <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                                
+                            <button class="login-btn" type="submit">Login</button>
+                            <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+
+            
+            <ul class="menu-container">
+                <li class="menu-item"><a href="#" class="link"><b>Home</b></li>
+                <li class="menu-item"><a href="#" class="link"><b>Games</b></li>
+                <li class="menu-item"><a href="#" class="link"><b>Books</b></li>
+                <li class="menu-item"><a href="#" class="link"><b>Lego</b></li>
+                <li class="menu-item"><a href="#" class="link"><b>Toys &#9660;</b></a>
+                    <ul class="dropdown">
+                        <li class="dropdown-item">
+                        <a href="#"><b>Dolls</b></a>
+                        </li>
+                        <li class="dropdown-item">
+                        <a href="#"><b>Cars</b></a>
+                        </li>
+                        <li class="dropdown-item">
+                        <a href="#"><b>Soft Toys</b></a>
+                        </li>
+                        <li class="dropdown-item">
+                        <a href="#"><b>Creative Toys</b></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+       </nav> 
+
+         <!-- ====== Hero Section ====== -->
+        <header class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Toy Shop</h1>
+                <p class="hero-subtitle">a magical children's place</p>
+                <button class="btn-shop">Shop Now</button>
+            </div>
+        </header>  
+
+         <!-- ====== Products ====== -->
+        
+         <section class="product">
+            <h2 class="product-category">Best seller</h2>
+        </section>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="book.jpg" class="product-img" alt="">
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Science for Kids</h2>
+                    <p class="product-short-des">Science Book</p>
+                    <span class="price">$25</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="barbie-doll.jpg" class="product-img" alt="">
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Barbie</h2>
+                    <p class="product-short-des">Barbie doll with accessories</p>
+                    <span class="price">$20</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="car.jpg" class="product-img" alt="">
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Car</h2>
+                    <p class="product-short-des">Vintage car with clean lines</p>
+                    <span class="price">$35</span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="lego.jpg" class="product-img" alt="">
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Lego</h2>
+                    <p class="product-short-des">Architecture Statue of Liberty</p>
+                    <span class="price">$100</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ====== Brands ====== -->
+        <div class="brand-section">
+            <h2 class="brand-title">Our Brands</h2>
+            <div class="brand-content">
+                <ul>
+                    <li class="img1"><img src="img1.png" alt=""/></li>
+                    <li class="img2"><img src="img2.png" alt=""/></li>
+                    <li class="img3"><img src="img3.png" alt=""/></li>
+                    <li class="img4"><img src="img4.jpg" alt=""/></li>
+                    <li class="img5"><img src="img5.png" alt=""/></li>
+                    <li class="img6"><img src="img6.jpg" alt=""/></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <!-- ====== Email ====== -->
+        <section class="email-section">
+
+            <label class="email-title" for="email">Subscribe to our Newsletter:</label>
+            <input class="email-form" type="email" id="email" name="email" placeholder="Enter your email">
+            <button class="email-btn">SUBSCRIBE</button>
+        </section>
+
+
+        <!-- ====== Footer ====== -->
+        <div class="footer-section">
+            <footer>
+                <div class="social"><a href="https://hr-hr.facebook.com/"><i class="fa fa-facebook"></i></a><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#">Home</a></li>
+                    <li class="list-inline-item"><a href="#">Services</a></li>
+                    <li class="list-inline-item"><a href="#">About us</a></li>
+                    <li class="list-inline-item"><a href="#">Terms</a></li>
+                    <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                </ul>
+                <p class="copyright">Toy Shop © 2022</p>
+            </footer>
+        </div>
+    </body>
+</html>

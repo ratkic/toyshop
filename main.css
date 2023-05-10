@@ -1,0 +1,438 @@
+@import 'nav.css';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*=========== Hero area ===========*/
+
+.hero-section{
+    max-width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('background.jpg');
+    background-size: cover;
+    display: grid;
+    align-items: center;
+}
+
+.hero-content {
+    position: relative;
+    color: gray;
+    text-align: center;
+    margin: 0.625rem;
+}
+
+.hero-title {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Amatic SC', cursive;
+}
+.hero-subtitle {
+    font-size: 35px;
+    font-weight: 200;
+    margin-top: 1rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+.btn-shop {
+    background-color: #ae2d59;
+    color: white;
+    border: 1px solid #cb376a;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.btn-shop:hover {
+    background-color: #cb376a;
+    border: 1px solid #db7598;
+}
+
+
+
+
+/* ========== Best Seller ==========*/
+
+.product{
+    position: relative;
+    padding: 1px;
+    width: 100%;
+    background-color: #dfdcdc43;
+}
+
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: purple;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ========== Products ========== */
+
+.product-container{
+    padding: 2vw 10vw;
+    display: flex;
+}
+
+.product-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.product-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: grey;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+
+.card-btn:hover{
+    background: #efefef;
+}
+
+.product-info{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.product-brand{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+}
+
+.product-short-des{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+    font-family: sans-serif;
+}
+
+.price{
+    font-weight: 900;
+    font-size: 20px;
+    color: purple;
+}
+
+
+/* ========= Brands ========= */
+
+.brand-section{
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.brand-title{
+    padding: 15px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: purple;
+    background-color: #dfdcdc43;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.brand-content{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.brand-content ul{
+    text-align: center;
+}
+
+.brand-content ul li{
+    list-style: none;
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.brand-content ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+.brand-content .img1{
+    width: 150px;
+    height: 100px;
+}
+
+.brand-content .img2{
+    width: 100px;
+    height: 100px;
+}
+.brand-content .img3{
+    width: 200px;
+    height: 100px;
+}
+.brand-content .img4{
+    width: 150px;
+    height: 100px;
+}
+.brand-content .img5{
+    width: 170px;
+    height: 100px;
+}
+.brand-content .img6{
+    width: 150px;
+    height: 100px;
+}
+
+
+/* ========== Email ========== */
+
+.email-section{
+    padding: 10px;
+    background-color: #dfdcdc43;
+    width: 100%;
+}
+
+.email-title{
+    padding: 0 10vw;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+}
+
+.email-form{
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+}
+
+.email-btn{
+    background-color: lightblue;
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #998e8e;
+    color: #998e8e;
+    transition-duration: 0.4s;
+}
+
+.email-btn:hover {
+    background-color: rgba(130, 203, 227, 0.96); 
+    color: white;
+}
+
+
+
+/*========== Footer ==========*/
+
+.footer-section {
+    padding: 40px 0;
+    color: #4b4c4d;
+    background-color: #dfdcdc7a;
+  }
+
+.footer-section ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+.footer-section li {
+    padding: 0 10px;
+}
+
+.footer-section ul a {
+    text-decoration: none;
+    opacity: 0.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+}
+
+.footer-section ul a:hover {
+    opacity: 1;
+    color: rgba(132, 22, 132, 0.61);
+}
+
+.footer-section .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-section .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.7;
+}
+
+.footer-section .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-section .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(170, 154, 154);
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 858px){
+
+    .hero-section{
+        height: 400px;
+    }
+
+    .hero-section .hero-content{
+        height: 100%;
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    .hero-title {
+        font-size: 30px;
+    }
+
+    .hero-subtitle {
+        font-size: 25px;
+    }
+
+    .btn-shop
+    {
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        padding: 1px;
+    }
+
+    .product-container{
+        width: 100%;
+        height: 370px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    .product-card{
+        flex: 0 0 auto;
+        width: 150px;
+        height: 300px;
+    }
+
+    .product-brand{
+        font-size: 17px;
+    }
+
+    .product-short-des{
+        font-size: 13px;
+    }
+
+    .price{
+        font-size: 13px;
+    }
+
+    .product-image{
+        flex: 0 0 auto;
+        object-fit:contain;
+        width: 100%;
+        height: 250px;
+    }
+
+    .product-category{
+        font-size: 19px;
+    }
+
+    .email-title{
+        font-size: 17px;
+    }
+
+    .email-form{
+        width: auto;
+    }
+
+    .brand-title{
+        font-size: 19px;
+    }
+
+    .brand-content{
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+    .brand-content ul li img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .footer-section ul{
+        font-size: 13px;
+        text-align: center;
+    }
+
+}
