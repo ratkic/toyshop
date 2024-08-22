@@ -15,6 +15,7 @@ Basic Forms: Simple, styled forms for tasks like user login, designed to match t
 🛠️ Technologies Used
 
 HTML5: For structuring the content and layout of the website.
+
 CSS3: Used extensively for styling, layout, and ensuring responsiveness through media queries and modern CSS techniques.
 
 ⚠️ Note
