@@ -17,10 +17,6 @@ Basic Forms: Simple, styled forms for tasks like user login, designed to match t
 HTML5: For structuring the content and layout of the website.
 CSS3: Used extensively for styling, layout, and ensuring responsiveness through media queries and modern CSS techniques.
 
-📱 Responsive Design
-
-A major goal of this project was to ensure that the website's design is fully responsive. 
-
 ⚠️ Note
 
 This project is a design prototype only. It does not include any back-end functionality or interactive features beyond basic CSS interactions. 
