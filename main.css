@@ -22,17 +22,17 @@
     position: relative;
     color: gray;
     text-align: center;
-    margin: 1.5rem; /* Adjusted margin */
+    margin: 1.5rem; 
 }
 
 .hero-title {
-    font-size: 3rem; /* Responsive unit */
+    font-size: 3rem; 
     font-weight: 600;
     font-family: 'Amatic SC', cursive;
 }
 
 .hero-subtitle {
-    font-size: 2.5rem; /* Responsive unit */
+    font-size: 2.5rem; 
     font-weight: 200;
     margin-top: 1rem;
     font-family: 'Amatic SC', cursive;
@@ -42,10 +42,10 @@
     background-color: #ae2d59;
     color: white;
     border: 1px solid #cb376a;
-    margin-top: 3rem; /* Reduced margin */
+    margin-top: 3rem;
     padding: 0.9375rem 1.875rem;
     font-family: "Monserrat", sans-serif;
-    font-size: 1.25rem; /* Responsive unit */
+    font-size: 1.25rem; 
     font-weight: 200;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -66,8 +66,8 @@
 }
 
 .product-category {
-    padding: 0 8vw; /* Adjusted padding for better responsiveness */
-    font-size: 2rem; /* Responsive unit */
+    padding: 0 8vw; 
+    font-size: 2rem; 
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -79,14 +79,14 @@
 /* ========== Products ========== */
 
 .product-container {
-    padding: 2vw 8vw; /* Adjusted padding */
+    padding: 2vw 8vw; 
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping on small screens */
+    flex-wrap: wrap; 
     gap: 20px;
 }
 
 .product-card {
-    flex: 1 1 calc(33.333% - 40px); /* Responsive cards */
+    flex: 1 1 calc(33.333% - 40px); 
     max-width: 250px;
     height: 450px;
     margin: 0 auto;
@@ -169,7 +169,7 @@
 
 .brand-title {
     padding: 15px;
-    font-size: 2rem; /* Responsive unit */
+    font-size: 2rem; 
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: capitalize;
@@ -242,12 +242,12 @@
     padding: 10px;
     background-color: #dfdcdc43;
     width: 100%;
-    text-align: center; /* Center align for better responsiveness */
+    text-align: center; 
 }
 
 .email-title {
     padding: 0 10vw;
-    font-size: 1.25rem; /* Responsive unit */
+    font-size: 1.25rem; 
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -257,8 +257,8 @@
 }
 
 .email-form {
-    width: 70%; /* Adjusted width */
-    max-width: 400px; /* Max width for large screens */
+    width: 70%; 
+    max-width: 400px; 
     height: 40px;
     padding: 10px;
     border-top-left-radius: 10px;
@@ -301,7 +301,7 @@
     text-align: center;
     font-size: 18px;
     line-height: 1.6;
-    flex-wrap: wrap; /* Allow wrapping on small screens */
+    flex-wrap: wrap; 
 }
 
 .footer-section li {
